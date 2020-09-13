@@ -1,0 +1,44 @@
+{
+  "Checkout": "Commande",
+  "stepper": {
+    "Trial review": "Vérification",
+    "Review your order": "Vérification",
+    "Place order": "Paiement",
+    "Confirmation": "Confirmation"
+  },
+  "trial": {
+    "access": {
+      "You can access": "Vous pouvez accéder aux",
+      "product for N days": "fonctionnalités Pro de {{product}} gratuitement pendant 7 jours. Aucune carte de crédit n'est requise."
+    },
+    "trial period": {
+      "by clicking": "En cliquant sur le bouton ci-dessous, votre compte sera crédité d'une licence de période d'essai.",
+      "not renewable": "La période d'essai n'est pas renouvelable."
+    },
+
+    "next steps": {
+      "once": "Une fois que vous avez souscris au plan d'essai, ouvrer le complément {{product}} et connectez vous avec votre",
+      "ms-account": "compte Microsoft {{email}}",
+      "to unlock the Pro features": "pour débloquer les fonctionnalités payantes"
+    }
+  },
+  "review": {
+    "Order summary": "Récapitulatif de la commande",
+    "ye": "an",
+    "mo": "mo",
+    "By clicking next, you agree to the": "En cliquant sur suivant, vous acceptez les",
+    "Terms of Service": "Conditions d'utilisation"
+  },
+  "confirmation": {
+    "Thank you": "Merci de votre confiance",
+    "You have access": "Vous avez désormais accès à l'ensemble des fonctionnalités Pro. Vous pouvez vérifier le statut de vos souscriptions depuis votre tableau de bord.",
+    "download our addin from": "Si vous n'avez pas déjà installer notre complément, vous pouvez le télécharger le depuis l'",
+    "Microsoft AppSource": "AppSource Microsoft"
+  },
+  "buttons": {
+    "next": "suivant",
+    "back": "retour",
+    "my dashboard": "mon tableau de bord",
+    "try pro features now": "essayer les fonctionnalités pro maintenant"
+  }
+}

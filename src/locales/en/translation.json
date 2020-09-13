@@ -1,0 +1,232 @@
+{
+  "showcase": {
+    "common": {
+      "freeTrial": "Try CC1C {{product}} for free",
+      "Buy": "Buy",
+      "trialPeriod": "7 days trial period"
+    },
+    "graphs": {
+      "navBarTitle": "Graphs",
+      "pricing": "7,95 €/month",
+      "headerSection": {
+        "title": "A graph is worth a thousand words",
+        "description": {
+          "start": "Your graphs deserves",
+          "end": ["respect", "visibility", "attention", "elegance"]
+        },
+        "videoId": 226053498,
+        "bulletPoints": [
+          {
+            "title": "Customizable",
+            "text": "Make the charts your own. Configure an extensive set of options to perfectly match the look and feel of your data."
+          },
+          {
+            "title": "Rich Gallery",
+            "text": "Choose from a variety of charts. From simple scatter plots to hierarchical treemaps, find the best fit for your data."
+          },
+          {
+            "title": "Dynamic Data",
+            "text": "Easily connect charts and controls with an interactive dashboard. Connect to your data in real time using a variety of tools."
+          }
+        ]
+      },
+      "insightsSection": {
+        "insights": [
+          {
+            "title": "Novelty",
+            "image": "/images/Showcase/graphs-insight1.png",
+            "description": "More than 34 charts are available - All customizable at your convenience."
+          },
+          {
+            "title": "Customization",
+            "image": "/images/Showcase/graphs-insight2.png",
+            "description": "Customize your graphics to your wishes: plots, texts, axes and legends but also the possibility to combine several graphs while inserting configurable buttons."
+          },
+          {
+            "title": "Modernization",
+            "image": "/images/Showcase/graphs-insight3.png",
+            "description": "Make better use of your data with the new CC1C Graphs generation. The new generation offers vector, surface, three-dimensional graphics and much more."
+          },
+          {
+            "title": "Information",
+            "image": "/images/Showcase/graphs-insight4.png",
+            "description": "Schematize your ideas as they develop while keeping them as clear and precise as possible."
+          },
+          {
+            "title": "Revolution",
+            "image": "/images/Showcase/graphs-insight5.png",
+            "description": "Illustrate your data in your presentations, reports and more generally in your professional and personal life with specific and detailed graphs. No longer be limited by the software but by your ideas."
+          }
+        ]
+      },
+      "accordionSection": {
+        "accordions": [
+          {
+            "header": {
+              "text": "Frequently asked question"
+            },
+            "panelsList": [
+              {
+                "title": "How do I insert an instance of the graphic editor in my spreadsheet ?",
+                "text": "To insert a graphic editor instance : \"Insert\" tab > \"My Add-ins\" > Select the add-in > \"Add\"."
+              },
+              {
+                "title": "Can we insert more than one graphic editor instance ?",
+                "text": "Yes, it is possible to insert several graphic editor instance. You simply have to repeat the same process explained above."
+              },
+              {
+                "title": "How to select cells, how do I use my spreadsheet's data ?",
+                "text": "You only have to write the range address of your data to make it available within the editor (e.g: \"Sheet1!F14:F27\" or \"A14:F14\"). Only 1D rows and columns of dimension can be selected."
+              },
+              {
+                "title": "I would like to have a new feature integrated, what should I do ?",
+                "text": "We are listening to your suggestions, do not hesitate to contact us by email at support@cc-1c.com."
+              }
+            ]
+          },
+
+          {
+            "header": {
+              "text": "Upcoming features"
+            },
+            "panelsList": [
+              {
+                "title": "Under the hood",
+                "text": "- A button to select the spreadsheet cells more easily will be added to the editor\n - An example will be available for each graph type\n - We will add the possibility to toggle the controls panel"
+              },
+              {
+                "title": "New graphics",
+                "text": "Other diverse and varied graphics will be implemented."
+              }
+            ]
+          },
+          {
+            "header": {
+              "text": "Known issues"
+            },
+            "panelsList": [
+              {
+                "title": "3D Graphs - Streamtube",
+                "text": "The following parameters have been disabled for the moment : Xstart, Ystart and Zstart."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "solvers": {
+      "navBarTitle": "Solvers",
+      "pricing": "7,95 €/month",
+      "headerSection": {
+        "title": "Hundred calculations in one",
+        "description": {
+          "start": "What are you waiting for to",
+          "end": [
+            "gain productivity ?",
+            "save time ?",
+            "earn money ?",
+            "gain knowledge ?"
+          ]
+        },
+        "videoId": 226053498,
+        "bulletPoints": [
+          {
+            "title": "Efficiency",
+            "text": "Solve your problems automatically, to make them less time-consuming and energy-consuming"
+          },
+          {
+            "title": "Visualization",
+            "text": "Visualize the functions in mathematical form, for your reports and for a better understanding"
+          },
+          {
+            "title": "Learning",
+            "text": "Learn with the CC1C Solvers Calculation Methodology Display"
+          }
+        ]
+      },
+      "insightsSection": {
+        "insights": [
+          {
+            "title": "Novelty",
+            "description": "More than 15 functions are available - All of them can be viewed in the Display panel."
+          },
+          {
+            "title": "Features",
+            "description": "Choose the format of your results, CC1C Solvers returns exact or approximate results, in the real or imaginary domain."
+          },
+          {
+            "title": "Visualize",
+            "description": "Visualize in a mathematical format, thanks to the Display panel, all the functions proposed by the CC1C solvers complement. You will be able to better apprehend all the data analysis."
+          },
+          {
+            "title": "Learn",
+            "description": "Learn through the precise calculation methodology of the \"CC1C display\" panel, like a schoolyard, and working for all expressions. Functionality available for various functions such as derivatives and integrals."
+          }
+        ]
+      },
+      "accordionSection": {
+        "accordions": [
+          {
+            "header": {
+              "text": "Frequently asked question"
+            },
+            "panelsList": [
+              {
+                "title": "How to use the CC1C functions ?",
+                "text": "By clicking on the \"Tutorial\" button in the CC1C Solvers tab, we invite you to download the spreadsheets explaining precisely how to use each function."
+              },
+              {
+                "title": "I have an error with a function, what should I do ?",
+                "text": "If you cannot find the solution with the Tutorial workbook, you can contact us by email at support@cc-1c.com."
+              },
+              {
+                "title": "I would like to have a new feature integrated, what should I do ?",
+                "text": "We are listening to your suggestions, do not hesitate to contact us by email at support@cc-1c.com."
+              }
+            ]
+          },
+          {
+            "header": {
+              "text": "Upcoming features"
+            },
+            "panelsList": [
+              {
+                "title": "Under the hood",
+                "text": " - Take into account the notations of the different countries for the separation of the decimal part \",\" and the \".\"\n - Choose the number of significant digits for the complex/formal format (2 by default).\n - Use Excel format for complex expressions. We invite you to download the tutorial on complex numbers, where we give you an example to translate from CC1C format to Excel format.\n - We keep the rest as a surprise !"
+              },
+              {
+                "title": "New functions",
+                "text": "A very wide range of new functions will be implemented soon. Stay tuned."
+              },
+              {
+                "title": "Display panel features",
+                "text": " - Update the Display input in real time in relation to the selected cell.\n - Standardization of display functions and functions to be typed in cells."
+              }
+            ]
+          },
+          {
+            "header": {
+              "text": "Known issues"
+            },
+            "panelsList": [
+              {
+                "title": "Display panel issues",
+                "text": " - There is a minor display problem with the `solve_pol_system()` function \n - The screenshots exported from the display to Excel have a grey background\n - The Display panel does not recognize the following functions :  \"asech\" ; \"acsch\" ; \"sech\"; \"csch\"; \"asec\" ; \"acsc\" ; \"atan2\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "terms-of-service": "Terms of Service",
+  "privacy-policy": "Privacy Policy",
+  "data-processing-adendum": "Data Processing Addendum",
+
+  "video-soon": "Video coming soon",
+
+  "Account": "Account",
+  "Sign out": "Sign out",
+  "Subscriptions": "Subscriptions",
+  "Sign in with Microsoft": "Sign in with Microsoft"
+}

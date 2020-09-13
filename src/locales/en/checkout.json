@@ -1,0 +1,43 @@
+{
+  "stepper": {
+    "Trial review": "Trial review",
+    "Review your order": "Review your order",
+    "Place order": "Place order",
+    "Confirmation": "Confirmation"
+  },
+  "trial": {
+    "access": {
+      "You can access": "You can access",
+      "product for N days": "{{product}} Pro features for free for 7 days. No credit card is required."
+    },
+    "trial period": {
+      "by clicking": "By clicking the button down below, your account will be grantend a trial license.",
+      "not renewable": "The trial period is not renewable."
+    },
+    "next steps": {
+      "once": "Once you're on the free trial plan, open the {{product}} addin and sign in with your",
+      "ms-account": "Microsoft account {{email}}",
+      "to unlock the Pro features": "to unlock the Pro features"
+    }
+  },
+  "review": {
+    "Order summary": "Order summary",
+    "ye": "ye",
+    "mo": "mo",
+    "By clicking next, you agree to the": "By clicking next, you agree to the",
+    "Terms of Service": "Terms of Service"
+  },
+  "confirmation": {
+    "Thank you": "Thank you for your trust",
+    "You have access": "You now have full access to the Pro features. You can check your subscriptions status from your dashboard.",
+    "download our addin from": "If you haven't installed our addin yet, you can download it from ",
+    "Microsoft AppSource": "Microsoft AppSource"
+  },
+  "buttons": {
+    "next": "next",
+    "back": "back",
+    "my dashboard": "my dashboard",
+    "try pro features now": "Try the Pro features now"
+  },
+  "Checkout": "Checkout"
+}

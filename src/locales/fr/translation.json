@@ -1,0 +1,237 @@
+{
+  "showcase": {
+    "common": {
+      "freeTrial": "Essayez CC1C {{product}} gratuitement",
+      "Buy": "Acheter",
+      "trialPeriod": "Période d'essai de 7 jours"
+    },
+    "graphs": {
+      "navBarTitle": "Graphs",
+      "pricing": "7,95 €/mois",
+      "headerSection": {
+        "title": "Un graphique vaut mille mots",
+        "description": {
+          "start": "Vos graphiques méritent",
+          "end": [
+            "le respect",
+            "de la visibilité",
+            "de l'attention",
+            "de l'élégance"
+          ]
+        },
+        "videoId": 79142264,
+        "bulletPoints": [
+          {
+            "title": "Personnalisable",
+            "text": "Appropriez-vous les graphiques. Configurez un vaste ensemble d'options pour qu'elles correspondent parfaitement à l'aspect et à la convivialité de vos données."
+          },
+          {
+            "title": "Galerie étoffée",
+            "text": "Choisissez parmi une variété de graphiques. Du simple nuage de points à la carte hiérarchique, trouvez la meilleure adéquation pour vos données."
+          },
+          {
+            "title": "Données dynamiques",
+            "text": "Connectez facilement les graphiques et les contrôles grâce à un tableau de bord interactif. Connectez-vous à vos données en temps réel à l'aide de divers outils."
+          }
+        ]
+      },
+      "insightsSection": {
+        "insights": [
+          {
+            "title": "Nouveauté",
+            "image": "/images/Showcase/graphs-insight1.png",
+            "description": "Plus de 34 graphiques vous sont proposés - Tous personnalisables à votre convenance."
+          },
+          {
+            "title": "Personnalisation",
+            "image": "/images/Showcase/graphs-insight2.png",
+            "description": "Personnalisez vos graphiques à vos souhaits : tracés, textes, axes et légendes mais aussi la possibilité de combiner plusieurs graphiques tout en y insérant des boutons paramétrables."
+          },
+          {
+            "title": "Modernisation",
+            "image": "/images/Showcase/graphs-insight3.png",
+            "description": "Exploitez mieux vos données avec la nouvelle génération CC1C Graphs. La nouvelle génération propose des graphiques vectoriels, surfaciques, tridimensionnels et bien plus encore."
+          },
+          {
+            "title": "Information",
+            "image": "/images/Showcase/graphs-insight4.png",
+            "description": "Schématisez vos idées à mesure qu’elles se développent tout en les gardant aussi claires que précises."
+          },
+          {
+            "title": "Révolution",
+            "image": "/images/Showcase/graphs-insight5.png",
+            "description": "Illustrez vos données dans vos présentations, vos rapports et plus généralement dans votre vie professionnelle comme personnelle avec des graphiques spécifiques et détaillés. Ne soyez plus limité par le logiciel mais par vos idées."
+          }
+        ]
+      },
+      "accordionSection": {
+        "accordions": [
+          {
+            "header": {
+              "text": "Questions fréquentes"
+            },
+            "panelsList": [
+              {
+                "title": "Comment insérer un graphique ?",
+                "text": "Pour insérer un graphique : Onglet \"Insérer\" / \"Mes compléments\" / Sélectionner le complément / \"Ajouter\"."
+              },
+              {
+                "title": "Peut-on insérer plusieurs pages de graphique ?",
+                "text": "Oui, il est possible d’insérer plusieurs pages de graphique en procédant comme pour insérer un graphique (un bouton dans le ruban sera bientôt mis en place)."
+              },
+              {
+                "title": "Comment sélectionner des cellules ?",
+                "text": "Vous devez simplement écrire l'addresse de vos données pour les rendre disponibles dans l'éditeur (e.g: \"Feuil1!F14:F27\" or \"A14:F14\"). Une ligne ou une colonne peut être sélectionnée à la fois pour le moment."
+              },
+              {
+                "title": "J’aimerais qu’une nouvelle fonctionnalité soit intégrée, que faire ?",
+                "text": "Nous sommes à l’écoute de vos suggestions, n’hésitez pas à nous contacter par mail à \" support@cc-1c.com \"."
+              }
+            ]
+          },
+          {
+            "header": {
+              "text": "Fonctionnalités à venir"
+            },
+            "panelsList": [
+              {
+                "title": "Sous le capôt",
+                "text": "- Un bouton permettant de selectionner les cellules du tableau plus simplement sera ajouté dans l'éditeur\n - Un exemple pour chaque type de graphique sera mis à disposition\n - Nous ajouterons la possiblité de caché le panneau de contrôle de l'éditeur"
+              },
+              {
+                "title": "Nouveaux graphiques",
+                "text": "D'autres graphiques divers et variés seront implémentés."
+              }
+            ]
+          },
+          {
+            "header": {
+              "text": "Problèmes connus"
+            },
+            "panelsList": [
+              {
+                "title": "3D Graphs - Streamtube",
+                "text": "Les paramètres Xstart, Ystart et Zstart ont été désactivés pour le moment."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "solvers": {
+      "navBarTitle": "Solvers",
+      "pricing": "7,95 €/mois",
+      "headerSection": {
+        "title": "Cent calculs en un",
+        "description": {
+          "start": "Qu'attendez vous pour gagner",
+          "end": [
+            "en productivité ?",
+            "du temps ?",
+            "de l'argent ?",
+            "en connaissances ?"
+          ]
+        },
+        "videoId": 79142264,
+        "bulletPoints": [
+          {
+            "title": "Efficacité",
+            "text": "Résolvez automatiquement vos problèmes, pour les rendre moins chronophages et énergivores"
+          },
+          {
+            "title": "Visualisation",
+            "text": "Visualisez les fonctions sous forme mathématique, pour vos rapports et pour une meilleure compréhension"
+          },
+          {
+            "title": "Apprentissage",
+            "text": "Apprenez avec l’affichage de la méthodologie de calcul de CC1C Solvers"
+          }
+        ]
+      },
+      "insightsSection": {
+        "insights": [
+          {
+            "title": "Nouveautés",
+            "description": "Plus de 15 fonctions vous sont proposées - Toutes visualisables dans le panneau Display."
+          },
+          {
+            "title": "Fonctionnalités",
+            "description": "Choisissez le format de vos résultats, CC1C Solvers vous renvoie des résultats exacts ou approximatifs, dans le domaine de l’imaginaire ou du réel."
+          },
+          {
+            "title": "Visualisation",
+            "description": "Visualisez dans un format mathématique, grâce au panneau Display, toutes les fonctions proposées par le complément CC1C solvers. Vous pourrez mieux appréhender toute l’analyse des données."
+          },
+          {
+            "title": "Apprentissage",
+            "description": "Apprenez grâce à la méthodologie de calcul précise du panneau “CC1C display”, tel un cours d’école, et fonctionnant pour toutes les expressions. Fonctionnalité disponible pour diverses fonctions tel quel les dérivées et les intégrales."
+          }
+        ]
+      },
+      "accordionSection": {
+        "accordions": [
+          {
+            "header": {
+              "text": "Questions fréquentes"
+            },
+            "panelsList": [
+              {
+                "title": "Comment utiliser les fonctions CC1C ?",
+                "text": "En cliquant sur le bouton “Tutorial”, dans l’onglet CC1C Solvers, nous vous invitons à télécharger les feuilles de calcul expliquant précisément comment utiliser chaque fonction."
+              },
+              {
+                "title": "J’ai une erreur avec une fonction, que faire ?",
+                "text": "Si vous ne trouvez pas la solution en téléchargeant les feuilles qui expliquent comment utiliser les fonctions (bouton \"Tutorial\" dans l’onglet CC1C Solvers), vous pouvez nous contacter par mail à \" support@cc-1c.com \"."
+              },
+              {
+                "title": "J’aimerais qu’une nouvelle fonctionnalité soit intégrée, que faire ?",
+                "text": "Nous sommes à l’écoute de vos suggestions, n’hésitez pas à nous contacter par mail à \" support@cc-1c.com \"."
+              }
+            ]
+          },
+
+          {
+            "header": {
+              "text": "Fonctionnalités à venir"
+            },
+            "panelsList": [
+              {
+                "title": "Sous le capot",
+                "text": " - Prendre en compte les notations des différents pays pour la séparation de la partie décimale \",\" et le \".\"\n - Choisir le nombre de chiffre significatif pour le format complexe/formel (2 par défaut).\n - Renvoyer en format de sortie, pour les complexes, la même forme que les fonctions Excel. Nous vous invitons à télécharger le tutoriel sur les nombres complexes, où nous vous donnons un exemples pour passer du format CC1C au format Excel.\n - Nous gardons la surprise pour le reste."
+              },
+              {
+                "title": "Nouvelles fonctions",
+                "text": "Un très large panel de nouvelles fonctions vont être implémentées. Stay tuned."
+              },
+              {
+                "title": "Fonctionnalités pour le Display",
+                "text": " - Mise à jour en temps réel de l’input par rapport à une cellule sélectionnée.\n - Uniformisation des fonctions du display et des fonctions à taper dans les cellules."
+              }
+            ]
+          },
+          {
+            "header": {
+              "text": "Problèmes connus"
+            },
+            "panelsList": [
+              {
+                "title": "Panneau Display",
+                "text": " - Problème d’affichage avec solve_pol_system() \n - Fond gris pour les screenshots\n - Ne reconnait pas \"asech\" ; \"acsch\" ; \"sech\"; \"csch\"; \"asec\" ; \"acsc\" ; \"atan2\""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "terms-of-service": "Conditions d’utilisation",
+  "privacy-policy": "Politique de confidentialité",
+  "data-processing-adendum": "Traitement des données",
+
+  "video-soon": "Bientôt une vidéo",
+
+  "Account": "Compte",
+  "Sign out": "Se déconnecter",
+  "Subscriptions": "Abonnements",
+  "Sign in with Microsoft": "Se connecter avec Microsoft"
+}

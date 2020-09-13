@@ -1,0 +1,66 @@
+{
+  "header": {
+    "title": "Prix",
+    "text": "Économisez jusqu'à 22% grâce à l'abonnement annuel !"
+  },
+  "seeFeatures": "Voir toutes les fonctionnalités",
+  "monthly": "Mensuel",
+  "yearly": "Annuel",
+  "ye": "an",
+  "mo": "mo",
+  "individualPlans": "Plans Individuels",
+  "teamPlans": "Plans d'Équipes",
+  "trialPeriod": "7 jours",
+  "graphs": {
+    "individual": {
+      "free": {
+        "title": "Gratuit",
+        "description": [
+          "4 types de graphiques illimités",
+          "Graphiques élémentaires"
+        ],
+        "button": "Essayer maintenant"
+      },
+      "pro": {
+        "title": "Pro",
+        "subtitle": "Le plus populaire",
+        "description": [
+          "Plus de 34 types de graphique",
+          "Documents illimités",
+          "Objets illimités",
+          "Graphiques avancés",
+          "Personnalisation sans contraintes",
+          "Superposition des graphiques",
+          "Mise à jour en temps réel"
+        ],
+        "button": "Période d'essai"
+      }
+    }
+  },
+  "solvers": {
+    "individual": {
+      "free": {
+        "title": "Gratuit",
+        "description": [
+          "5 fonctions illimitées (N, EXPAND, EXPAND_COMPLEX, COMPLEX_IMAGINARY, COMPLEX_REAL)",
+          "Fonctions élémentaires"
+        ],
+        "button": "Essayer maintenant"
+      },
+      "pro": {
+        "title": "Pro",
+        "subtitle": "Le plus populaire",
+        "description": [
+          "Plus de 15 fonctions",
+          "Calculs illimités",
+          "Requêtes illimitées",
+          "Fonctions avancées",
+          "Visualisation mathématique",
+          "Méthodologie de calculs",
+          "Résultats instantanés"
+        ],
+        "button": "Période d'essai"
+      }
+    }
+  }
+}

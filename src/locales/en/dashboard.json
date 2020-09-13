@@ -1,0 +1,31 @@
+{
+  "Hello": "Hello",
+  "Subscriptions": "Subscriptions",
+  "Billing": "Billing",
+  "headers": {
+    "Id": "Id",
+    "Plan": "Plan",
+    "Status": "Status",
+    "Date": "Date",
+    "Edit": "Edit",
+    "Hello": "Hello",
+    "Price": "Price"
+  },
+  "caption": {
+    "You have not been charged yet": "You have not been charged yet",
+    "You don't have any subscriptions yet": "You don't have any subscriptions yet"
+  },
+  "edit": {
+    "Suspend Subscription": "Suspend Subscription",
+    "Reactivate Subscription": "Reactivate Subscription"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending_activation": "Pending activation",
+    "pending_suspension": "Pending suspension",
+    "suspended": "Suspended",
+    "pending_reactivation": "Pending reactivation",
+    "cancelled": "Cancelled"
+  }
+}

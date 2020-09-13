@@ -1,0 +1,30 @@
+{
+  "Hello": "Bonjour",
+  "Subscriptions": "Abonnements",
+  "Billing": "Factures",
+  "headers": {
+    "Id": "Id",
+    "Plan": "Plan",
+    "Status": "Statut",
+    "Date": "Date",
+    "Edit": "Editer",
+    "Price": "Prix"
+  },
+  "caption": {
+    "You have not been charged yet": "Vous n'avez pas encore été facturé",
+    "You don't have any subscriptions yet": "Vous n'avez pas encore d'abonnement"
+  },
+  "edit": {
+    "Suspend Subscription": "Suspendre l'abonnement",
+    "Reactivate Subscription": "Réactivé l'abonnement"
+  },
+  "status": {
+    "active": "Actif",
+    "inactive": "Inactif",
+    "pending_activation": "Activation en cours",
+    "pending_suspension": "Suspension en cours",
+    "suspended": "Suspendu",
+    "pending_reactivation": "Reactivation en cours",
+    "cancelled": "Annulé"
+  }
+}

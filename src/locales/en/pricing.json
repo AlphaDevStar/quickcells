@@ -1,0 +1,63 @@
+{
+  "header": {
+    "title": "Price",
+    "text": "Save up to 22% with an annual subscription !"
+  },
+  "seeFeatures": "See all features",
+  "monthly": "Monthly",
+  "yearly": "Annualy",
+  "ye": "ye",
+  "mo": "mo",
+  "individualPlans": "Individual Plans",
+  "teamPlans": "Team Plans",
+  "trialPeriod": "7 days",
+  "graphs": {
+    "individual": {
+      "free": {
+        "title": "Free",
+        "description": ["4 graphic types", "Elementary graphics"],
+        "button": "Try now"
+      },
+      "pro": {
+        "title": "Pro",
+        "subtitle": "The most popular",
+        "description": [
+          "34 unlimited graphic types",
+          "Unlimmited documents",
+          "Unlimited objects",
+          "Advanced graphics",
+          "Unlimited personnalization",
+          "Graphs superimposition",
+          "Real time updates"
+        ],
+        "button": "Trial period"
+      }
+    }
+  },
+  "solvers": {
+    "individual": {
+      "free": {
+        "title": "Price",
+        "description": [
+          "5 unlimited functions (N, EXPAND, EXPAND_COMPLEX, COMPLEX_IMAGINARY, COMPLEX_REAL)",
+          "Basic functions"
+        ],
+        "button": "Try now"
+      },
+      "pro": {
+        "title": "Pro",
+        "subtitle": "Le plus populaire",
+        "description": [
+          "Advanced functions",
+          "Unlimited calculations",
+          "Unlimited requests",
+          "Mathematical visualization",
+          "Calculation methodology",
+          "More than 15 functions",
+          "Instant results"
+        ],
+        "button": "Trial period"
+      }
+    }
+  }
+}
