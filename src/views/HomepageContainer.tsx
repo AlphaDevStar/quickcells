@@ -62,7 +62,7 @@ const HomepageContainer: React.FC = () => (
         <img src="/images/cells/grey-white-background.jpg" className="bkg-dot-circle" />
         <div className="give-padding flex-container-col">
           <div className="solution-text">
-            <div className="green-letters general-caption margin-bottom-14">
+            <div className="green-letters general-caption margin-bottom-14 caption-size">
               2 Solutions pour vous ou votre entreprise
             </div>
             <div className="sub-desc">
