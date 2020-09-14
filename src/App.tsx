@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  HomepageContainer,
   DummyVIewWithDefaultContainer,
   DummyVIewWithoutDefaultContainer,
 } from "./views";
@@ -16,7 +17,7 @@ const App: React.FC = () => {
         <Switch>
           <Route exact path="/">
             <DocumentTitle title="Home">
-              <DummyVIewWithDefaultContainer />
+              <HomepageContainer />
             </DocumentTitle>
           </Route>
           <Route exact path="pricing/packages">
