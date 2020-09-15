@@ -17,7 +17,7 @@ const GraphpageContainer: React.FC = () => (
               <a href="#" className="general-button-style button-caption essay-button text-center" id="#essayer">Essayer QuickCells Solvers gratuitement.</a>
           </div>
       </section>
-      <section className="graph-bkg" id="#graph-pan">
+      <section className="graph-bkg">
           <div className="flex-container-col">
               <img src="/images/addins/solvers/intro.svg" className="tete-picture"/>
               <div className="dynam-text">

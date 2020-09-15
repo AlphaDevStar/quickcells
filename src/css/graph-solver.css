@@ -4,7 +4,7 @@
     flex-flow: column;
 }
 
-.flex-container-row {
+.flex-container-row, .flex-container-row-fix {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,12 +183,8 @@
 
 @media screen and (max-width: 786px) {
 
-    #graph-pan .flex-container-row {
+    .flex-container-row {
         flex-flow: column;
-    }
-
-    #solver-pan .flex-container-row {
-        flex-flow: row;
     }
 
     .bundle-pic-style-solv {
@@ -245,6 +241,7 @@
     .bundle-pic-style {
         order: 2;
         width: 70%;
+        margin-right: 30px;
     }
 
     .donnees-text {

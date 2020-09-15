@@ -17,7 +17,7 @@ const SolverpageContainer : React.FC = () => (
               <a href="#" className="general-button-style button-caption essay-button text-center" id="#essayer">Essayer QuickCells Graphs gratuitement.</a>
           </div>
       </section>
-      <section className="graph-bkg" id="#solver-pan">
+      <section className="graph-bkg">
           <div className="flex-container-col">
               <img src="/images/addins/graphs/tete.svg" className="tete-picture"/>
               <div className="tete-text">
@@ -26,7 +26,7 @@ const SolverpageContainer : React.FC = () => (
               </div>
           </div>
 
-          <div className="flex-container-row bundle-part">
+          <div className="flex-container-row-fix bundle-part">
               <img src="/images/addins/solvers/bundle-picture.svg" className="bundle-pic-style-solv" />
               <div className="efficar-text">
                   <p className="desc-title no-margin-padding">Efficacité.</p>
