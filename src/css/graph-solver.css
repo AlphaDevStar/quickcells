@@ -1,0 +1,310 @@
+.flex-container-col {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.flex-container-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+
+.efficar-text {
+    width: 25%;
+    margin-left: -10%;
+}
+
+.bundle-pic-style-solv {
+    width: 40%;
+}
+
+.intro-graph {
+    max-width: 100%;
+}
+
+.first-part-box {
+    position: relative;
+    margin-top: 18px;
+}
+
+.big-title {
+    font-size: 50px;
+    line-height: 59px;
+    color: black;
+}
+
+.small-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top:30px;
+}
+
+.essay-button {
+    width: 625px;
+    padding: 20px 0 20px 0;
+    margin-bottom: 50px;
+}
+
+.button-caption {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.graph-bkg {
+    background-image: url("/images/addins/graphs/bkg-combine.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+
+.tete-picture {
+    margin-top: 140px;
+    max-width: 80%;
+}
+
+.tete-text {
+    margin-top: 30px;
+}
+
+.dynam-text {
+    margin-top: 50px;
+}
+
+.desc-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #54C278;
+}
+
+.desc-style {
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.tete-margin {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.donnees-text {
+    width: 358px;
+    text-align: left;
+}
+
+.bundle-part {
+    margin-top: 100px;
+}
+
+.tarif-button {
+    width: 249px;
+    padding: 20px 0 20px 0;
+}
+
+.last-part {
+    margin: 100px 0 100px 0;
+}
+
+.cross-part {
+    margin-top: 100px;
+}
+
+.contain-each-part {
+    position: relative;
+}
+
+.first-img, .second-img {
+    width: 40%;
+}
+#solver-pan .first-img, #solver-pan .second-img {
+    width: 50%;
+}
+
+.second-img {
+    float: right;
+}
+
+.text-first, .text-second {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+#solver-pan .text-first,#solver-pan .text-second {
+    width: 50%;
+}
+
+.img-margin-1 {
+    margin-top: 5%;
+}
+
+.img-margin-2 {
+    margin-top: 10%;
+}
+
+.img-margin-3 {
+    margin-top: 8%;
+}
+
+.img-margin-4 {
+    margin-top: 5%;
+}
+
+.text-first {
+    float: right;
+}
+
+.text-box-first {
+    width: 70%;
+}
+
+.text-first-margin {
+    margin: 30px 0 0 0;
+}
+
+.text-second {
+    float: left;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: inline;
+}
+
+
+@media screen and (max-width: 786px) {
+
+    #graph-pan .flex-container-row {
+        flex-flow: column;
+    }
+
+    #solver-pan .flex-container-row {
+        flex-flow: row;
+    }
+
+    .bundle-pic-style-solv {
+        width: 60%;
+    }
+
+    .efficar-text {
+        width: 30%;
+        margin-left: -15%;
+    }
+
+    .intro-graph {
+        max-width: 80%;
+    }
+
+    .big-title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .small-title {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .button-caption {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .essay-button {
+        width: 280px;
+        padding: 10px 0 10px 0;
+        margin-bottom: 0;
+    }
+
+    .tete-picture {
+        margin-top: 70px;
+    }
+
+    .desc-title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    
+    .desc-style {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .bundle-pic-style {
+        order: 2;
+        width: 70%;
+    }
+
+    .donnees-text {
+        order: 1;
+        width: 208px;
+    }
+
+    .tete-text {
+        width: 234px;
+        text-align: center;
+    }
+
+    .donnees-margin {
+        text-align: center;
+    }
+
+    .efficar-margin {
+        text-align: left;
+    }
+
+    .text-first-margin {
+        margin: 10px 0 0 0;
+    }
+
+    .text-first, .text-second {
+        max-width: calc(100% - 180px);
+    }
+    .first-img, .second-img {
+        min-width: 180px;
+    }
+
+    .last-part {
+        margin: 100px 0 50px 0;
+    }
+
+    .last-part > p {
+        width: 66%;
+    }
+
+    .text-box-first {
+        width: 80%;
+    }
+
+    .mobile {
+        display: inline;
+    }
+    
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 787px) and (max-width: 1279px) {
+    .desc-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .desc-style {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

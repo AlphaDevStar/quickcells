@@ -6,6 +6,10 @@
     padding: 56px 0 56px 0;
 }
 
+.dynamic-picture {
+    width: 50%;
+}
+
 .description-cap, .description-small {
     position: absolute;
     text-align: center;
@@ -113,6 +117,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 80%;
 }
 
 .margin-100 {
@@ -151,7 +156,7 @@
 }
 
 .dynamic-data-text {
-    width: 347px;
+    width: 28%;
 }
 
 .margin-bottom-14 {
@@ -171,7 +176,7 @@
 }
 
 .productivity-text {
-    width: 731px;
+    width: 58%;
     text-align: center;
 }
 
@@ -187,7 +192,7 @@
 }
 
 .common-size {
-    width: 317px;
+    width: 29%;
     height: 183px;
     margin-right: 4%;
     z-index: 3;
@@ -275,10 +280,11 @@
 
 .cycle-picture {
     order: 1;
+    width: 60%;
 }
 
 .cycle-text {
-    width: 390px;
+    width: 30%;
     color: black;
 }
 
@@ -295,7 +301,7 @@
 }
 
 .margin-left-minus-80 {
-    margin-left: -140px;
+    margin-left: -10%;
 }
 
 .cycle-text-order {
@@ -536,8 +542,8 @@
     }
 
     .flex-container-not-center {
-        flex-flow: column;
-        justify-content: center;
+        flex-flow: column !important;
+        justify-content: center !important;
     }
 
     .cycle-caption {
@@ -613,6 +619,10 @@
     
     .button-group {
         margin-top: 20px;
+    }
+
+    .common-size {
+        width: 80%;
     }
 }
 

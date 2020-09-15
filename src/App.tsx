@@ -2,6 +2,7 @@ import React from "react";
 import {
   HomepageContainer,
   GraphpageContainer,
+  SolverpageContainer,
   DummyVIewWithDefaultContainer,
   DummyVIewWithoutDefaultContainer,
 } from "./views";
@@ -34,7 +35,7 @@ const App: React.FC = () => {
           </Route>
           <Route exact path="/product/quickcells-solvers">
             <DocumentTitle title="CC1C Solvers">
-              <DummyVIewWithDefaultContainer />
+              <SolverpageContainer />
             </DocumentTitle>
           </Route>
           {/* Contact */}
