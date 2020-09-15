@@ -1,0 +1,85 @@
+.flex-container-col {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.flex-container-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+}
+
+.intro-graph {
+    max-width: 100%;
+}
+
+.first-part-box {
+    position: relative;
+    margin-top: 18px;
+}
+
+.big-title {
+    font-size: 50px;
+    line-height: 59px;
+    color: black;
+}
+
+.small-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top:30px;
+}
+
+.essay-button {
+    width: 625px;
+    padding: 20px 0 20px 0;
+}
+
+.button-caption {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.graph-bkg {
+    background-image: url("/images/addins/graphs/bkg-combine.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
+
+.tete-picture {
+    margin-top: 140px;
+    max-width: 80%;
+}
+
+.tete-text {
+    margin-top: 30px;
+}
+
+.desc-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #54C278;
+}
+
+.desc-style {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.tete-margin {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.donnees-text {
+    width: 30%;
+}

@@ -1,0 +1,48 @@
+* {
+    font-family: Roboto;
+    font-style: normal;
+    color: #000000;
+}
+
+body {
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+}
+
+.green-letters {
+    color: rgb(84, 194, 120);
+}
+
+.justify-center-item {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.left-float {
+    float: left;
+}
+
+.no-margin-padding {
+    margin: 0;
+    padding: 0;
+}
+
+.not-wrap {
+    white-space: nowrap;
+}
+
+.general-button-style {
+    background: #54C278;
+    border-radius: 58px;
+    z-index: 3;
+    text-decoration: none;
+}

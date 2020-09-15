@@ -1,6 +1,6 @@
 import React from "react";
-import { Typography } from "@material-ui/core";
 import { NavLayout } from "../components";
+import '../css/common.css'
 import '../css/home.css'
 
 const HomepageContainer: React.FC = () => (
