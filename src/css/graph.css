@@ -71,7 +71,6 @@
 .desc-style {
     font-size: 20px;
     line-height: 23px;
-    text-align: center;
     color: #000000;
 }
 
@@ -81,5 +80,19 @@
 }
 
 .donnees-text {
-    width: 30%;
+    width: 358px;
+    text-align: left;
+}
+
+.bundle-part {
+    margin-top: 100px;
+}
+
+.tarif-button {
+    width: 249px;
+    padding: 20px 0 20px 0;
+}
+
+.last-part {
+    margin: 100px 0 100px 0;
 }
