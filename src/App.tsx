@@ -1,6 +1,7 @@
 import React from "react";
 import {
   HomepageContainer,
+  GraphpageContainer,
   DummyVIewWithDefaultContainer,
   DummyVIewWithoutDefaultContainer,
 } from "./views";
@@ -20,7 +21,7 @@ const App: React.FC = () => {
               <HomepageContainer />
             </DocumentTitle>
           </Route>
-          <Route exact path="pricing/packages">
+          <Route exact path="/pricing/packages">
             <DocumentTitle title="Packages">
               <DummyVIewWithDefaultContainer />
             </DocumentTitle>
@@ -28,7 +29,7 @@ const App: React.FC = () => {
           {/* Showcases */}
           <Route exact path="/product/quickcells-graphs">
             <DocumentTitle title="CC1C Graphs">
-              <DummyVIewWithDefaultContainer />
+              <GraphpageContainer />
             </DocumentTitle>
           </Route>
           <Route exact path="/product/quickcells-solvers">

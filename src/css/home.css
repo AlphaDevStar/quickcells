@@ -16,6 +16,10 @@ section {
     height: 605px;
 }
 
+.testimonial {
+    padding: 56px 0 56px 0;
+}
+
 .description-cap, .description-small {
     position: absolute;
     text-align: center;
@@ -506,6 +510,11 @@ section {
         margin: auto;
     }
 
+    .solve-text {
+        width: auto;
+        height: auto;
+    }
+
     .solution-text .sub-desc {
         width: 336px;
         height: 97px;
@@ -525,11 +534,100 @@ section {
     }
 
     .flex-container-row {
+        justify-content: center;
         flex-flow: column;
     }
 
     .common-home-service-style {
         margin-bottom: 50px;
+    }
+
+    .cycle-picture {
+        order: 2;
+    }
+
+    .cycle-text-order {
+        order: 1;
+    }
+
+    .flex-container-not-center {
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    .cycle-caption {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 50px;
+    }
+
+    .cycle-desc {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .margin-left-minus-80 {
+        margin-left: 0;
+    }
+
+    .cycle-picture {
+        max-width: 90%;
+    }
+
+    .bkg-dots-3 {
+        width: 100%;
+        /* height: 138.07px; */
+        opacity: 0.09;
+        transform: matrix(-0.87, -0.49, -0.49, 0.87, 0, 0);
+        top: 10%;
+        left: -30%;
+    }
+    
+    .testimonial {
+        background: #F3FFF7;
+    }
+    
+    .testimonial-circle {
+        display: none;
+    }
+
+    .testimonial-height {
+        height: auto;
+    }
+
+    .common-quote-style {
+        margin-top: 50px;
+    }
+
+    .margin-bottom-50 {
+        margin-bottom: 30px;
+    }
+
+    .service-bkg-color {
+        background: white;
+    }
+
+    .google-picture-style {
+        margin-right: 0;
+        width: 80%;
+    }
+
+    .microsoft-picture-style {
+        width: 80%;
+    }
+
+    .introduce-text {
+        width: 322px;
+        height: 86px;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+    }
+    
+    .button-group {
+        margin-top: 20px;
     }
 }
 

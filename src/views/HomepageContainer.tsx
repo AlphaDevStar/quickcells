@@ -70,8 +70,8 @@ const HomepageContainer: React.FC = () => (
             </div>
           </div>
           <div className="flex-container-center">
-            <a href="#" className="common-button-style common-button-font-style margin-right-120">GRAPHS</a>
-            <a href="#" className="common-button-style common-button-font-style">SOLVERS</a>
+            <a href="#" className="common-button-style common-button-font-style margin-right-120" id="#graphs">GRAPHS</a>
+            <a href="#" className="common-button-style common-button-font-style" id="#solvers">SOLVERS</a>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@ const HomepageContainer: React.FC = () => (
         <img src="/images/background-images/dots.svg" className="bkg-dots-3" />
       </div>
 
-      <div className="container padding-56">
+      <div className="container testimonial">
         <div className="flex-container-row testimonial-height">
           <div className="common-quote-style">
             <img src="/images/naviguation-icons/quote.svg" className="quote-form margin-bottom-50"/>
@@ -156,7 +156,7 @@ const HomepageContainer: React.FC = () => (
           </p>
           <div className="flex-container-row">
             <img src="/images/homepage-extra-image-data/google.svg" className="google-picture-style"/>
-            <img src="/images/homepage-extra-image-data/microsoft.svg" />
+            <img src="/images/homepage-extra-image-data/microsoft.svg" className="microsoft-picture-style"/>
           </div>
         </div>
       </div>
@@ -169,8 +169,8 @@ const HomepageContainer: React.FC = () => (
           <p className="solution-dec">Profitez d’une période d’essai gratuite !</p>
         </div>
         <div className="flex-container-center button-group">
-            <a href="#" className="common-button-style common-button-font-style margin-right-120">GRAPHS</a>
-            <a href="#" className="common-button-style common-button-font-style">SOLVERS</a>
+            <a href="#" className="common-button-style common-button-font-style margin-right-120" id="#graphs">GRAPHS</a>
+            <a href="#" className="common-button-style common-button-font-style" id="#SOLVERS">SOLVERS</a>
           </div>
       </div>
     </section>
