@@ -3,6 +3,10 @@ import {
   HomepageContainer,
   GraphpageContainer,
   SolverpageContainer,
+  EssayVersion,
+  PersonalQuote,
+  TarifsPremium,
+  PricingTable,
   DummyVIewWithDefaultContainer,
   DummyVIewWithoutDefaultContainer,
 } from "./views";
@@ -24,7 +28,7 @@ const App: React.FC = () => {
           </Route>
           <Route exact path="/pricing/packages">
             <DocumentTitle title="Packages">
-              <DummyVIewWithDefaultContainer />
+              <PricingTable />
             </DocumentTitle>
           </Route>
           {/* Showcases */}
@@ -58,6 +62,24 @@ const App: React.FC = () => {
           <Route path="/legal/dpa">
             <DocumentTitle title="Data Processing Adendum">
               <DummyVIewWithDefaultContainer />
+            </DocumentTitle>
+          </Route>
+          {/* Version d'essai */}
+          <Route exact path="/essay-version">
+            <DocumentTitle title="essay version">
+              <EssayVersion />
+            </DocumentTitle>
+          </Route>
+          {/* Devis personnalisé */}
+          <Route exact path="/personalized-quote">
+            <DocumentTitle title="personalized quote">
+              <PersonalQuote />
+            </DocumentTitle>
+          </Route>
+          {/* Tarifs Premium */}
+          <Route exact path="/tarifs-Premium">
+            <DocumentTitle title="tarifs premium">
+              <TarifsPremium />
             </DocumentTitle>
           </Route>
         </Switch>
