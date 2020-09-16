@@ -1,13 +1,39 @@
-.max-height {
-    height: 605px;
-}
-
 .testimonial {
     padding: 56px 0 56px 0;
 }
 
 .dynamic-picture {
-    width: 50%;
+    width: 40%;
+}
+
+.home-first-part {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.align-text-center {
+    margin: auto;
+    padding: 0;
+}
+
+.big-title {
+    font-size: 50px;
+    line-height: 59px;
+    color: black;
+}
+
+.small-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top:30px;
 }
 
 .description-cap, .description-small {
@@ -38,10 +64,11 @@
     z-index: 4;
 }
 
-.service-bkg-color {
-    background-color: rgb(240, 249, 243);
+.service-bkg-color, #contact-form {
+    background-color: #F3FFF7;
     padding: 80px 0 80px 0;
 }
+
 
 .green-letters {
     color: rgb(84, 194, 120);
@@ -112,12 +139,7 @@
 }
 
 .bkg-dot-check {
-    z-index: 2;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+    max-width: 100%;
 }
 
 .margin-100 {
@@ -182,7 +204,7 @@
 
 .productivity-picture-show {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-flow: row;
 }
@@ -192,9 +214,7 @@
 }
 
 .common-size {
-    width: 29%;
-    height: 183px;
-    margin-right: 4%;
+    width: 28%;
     z-index: 3;
 }
 
@@ -281,6 +301,7 @@
 .cycle-picture {
     order: 1;
     width: 60%;
+    margin-left: 10%;
 }
 
 .cycle-text {
@@ -540,6 +561,14 @@
     .cycle-text-order {
         order: 1;
     }
+    
+    .cycle-text {
+        width: 60%;
+    }
+    
+    .cycle-picture {
+        width: 100%;
+    }
 
     .flex-container-not-center {
         flex-flow: column !important;
@@ -596,10 +625,6 @@
         margin-bottom: 30px;
     }
 
-    .service-bkg-color {
-        background: white;
-    }
-
     .google-picture-style {
         margin-right: 0;
         width: 80%;
@@ -623,6 +648,46 @@
 
     .common-size {
         width: 80%;
+    }
+    
+    .common-button-style {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        padding: 10px 60px 10px 60px;
+    }
+
+    .solution-text-style {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .solution-dec {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .padding-110 {
+        padding: 0 0 100px 0;
+    }
+
+    .give-padding {
+        padding: 100px 0 100px 0;
+    }
+
+    #contact-form {
+        background: white;
+    }
+
+    .big-title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .small-title {
+        font-size: 10px;
+        line-height: 12px;
     }
 }
 

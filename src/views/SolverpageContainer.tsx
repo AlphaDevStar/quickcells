@@ -36,9 +36,9 @@ const SolverpageContainer : React.FC = () => (
 
           <div className="flex-container-col cross-part">
               <div className="contain-each-part">
-                  <img src="/images/addins/solvers/img-1.svg" className="first-img desktop"/>
-                  <img src="/images/addins/solvers/mob-img-1.svg" className="first-img mobile"/>
-                  <div className="text-first img-margin-1">
+                  <img src="/images/addins/solvers/img-1.svg" className="sol-first-img desktop"/>
+                  <img src="/images/addins/solvers/mob-img-1.svg" className="sol-first-img mobile"/>
+                  <div className="sol-text-first img-center">
                       <div className="text-box-first">
                         <p className="desc-title no-margin-padding">Nouveautés</p>
                         <p className="desc-style text-first-margin">Les solutions proposées par QuickCells Solvers résultent de problématiques réelles rencontrées par bon nombre de professionnels. L’objectif est simple et novateur : simplifier les calculs complexes et les rendre accessible à tous.</p>
@@ -46,19 +46,19 @@ const SolverpageContainer : React.FC = () => (
                   </div>
               </div>
               <div className="contain-each-part">
-                  <div className="text-second img-margin-2">
+                  <div className="sol-text-second img-center">
                       <div className="text-box-first">
                         <p className="desc-title no-margin-padding">Fonctionnalités</p>
                         <p className="desc-style text-first-margin">Choisissez le <span className="green-letters">format de vos résultats</span>, QuickCells Solvers vous renvoie des résultats exacts ou approximatifs, dans le domaine de l’imaginaire ou du réel.</p>
                       </div>
                   </div>
-                  <img src="/images/addins/solvers/img-2.svg" className="second-img desktop"/>
-                  <img src="/images/addins/solvers/mob-img-2.svg" className="second-img mobile"/>
+                  <img src="/images/addins/solvers/img-2.svg" className="sol-second-img desktop"/>
+                  <img src="/images/addins/solvers/mob-img-2.svg" className="sol-second-img mobile"/>
               </div>
               <div className="contain-each-part">
-                  <img src="/images/addins/solvers/img-3.svg" className="first-img desktop"/>
-                  <img src="/images/addins/solvers/mob-img-3.svg" className="first-img mobile"/>
-                  <div className="text-first img-margin-3">
+                  <img src="/images/addins/solvers/img-3.svg" className="sol-first-img desktop"/>
+                  <img src="/images/addins/solvers/mob-img-3.svg" className="sol-first-img mobile"/>
+                  <div className="sol-text-first img-center">
                       <div className="text-box-first">
                         <p className="desc-title no-margin-padding">Visualisation</p>
                         <p className="desc-style text-first-margin">Visualisez dans un format mathématique, grâce au <span className="green-letters">panneau Display</span>, toutes les fonctions proposées par le complément QuickCells Solvers. Vous pourrez mieux appréhender toute l’analyse des données.</p>
@@ -66,14 +66,14 @@ const SolverpageContainer : React.FC = () => (
                   </div>
               </div>
               <div className="contain-each-part">
-                  <div className="text-second img-margin-4">
+                  <div className="sol-text-second img-center">
                       <div className="text-box-first">
                         <p className="desc-title no-margin-padding">Apprentissage</p>
                         <p className="desc-style text-first-margin">Apprenez grâce à la <span className="green-letters">méthodologie</span> de calcul précise du panneau “QuickCells display”, tel un cours d’école, et fonctionnant pour toutes les expressions. Fonctionnalité disponible pour diverses fonctions tel quel les dérivées et les intégrales.</p>
                       </div>
                   </div>
-                  <img src="/images/addins/solvers/img-4.svg" className="second-img desktop"/>
-                  <img src="/images/addins/solvers/mob-img-4.svg" className="second-img mobile"/>
+                  <img src="/images/addins/solvers/img-4.svg" className="sol-second-img desktop"/>
+                  <img src="/images/addins/solvers/mob-img-4.svg" className="sol-second-img mobile"/>
               </div>
           </div>
 

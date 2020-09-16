@@ -29,13 +29,14 @@
     margin-top: 18px;
 }
 
-.big-title {
+.big-title1 {
     font-size: 50px;
     line-height: 59px;
     color: black;
+    width: 70%;
 }
 
-.small-title {
+.small-title1 {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -117,12 +118,13 @@
 
 .contain-each-part {
     position: relative;
+    display: flex;
 }
 
 .first-img, .second-img {
     width: 40%;
 }
-#solver-pan .first-img, #solver-pan .second-img {
+.sol-first-img, .sol-second-img {
     width: 50%;
 }
 
@@ -136,24 +138,22 @@
     justify-content: center;
 }
 
-#solver-pan .text-first,#solver-pan .text-second {
+.sol-text-first, .sol-text-second {
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
-.img-margin-1 {
-    margin-top: 5%;
+.sol-text-first {
+    float: right;
 }
 
-.img-margin-2 {
-    margin-top: 10%;
+.sol-text-second {
+    float: left;
 }
 
-.img-margin-3 {
-    margin-top: 8%;
-}
-
-.img-margin-4 {
-    margin-top: 5%;
+.img-center {
+    align-items: center;
 }
 
 .text-first {
@@ -198,14 +198,15 @@
 
     .intro-graph {
         max-width: 80%;
+        margin-left: 10%;
     }
 
-    .big-title {
+    .big-title1 {
         font-size: 20px;
         line-height: 23px;
     }
 
-    .small-title {
+    .small-title1 {
         font-size: 10px;
         line-height: 12px;
     }
@@ -230,6 +231,10 @@
         font-weight: bold;
         font-size: 20px;
         line-height: 23px;
+    }
+
+    .dynam-text .desc-title {
+        text-align: center;
     }
     
     .desc-style {

@@ -7,15 +7,17 @@ const HomepageContainer: React.FC = () => (
   <NavLayout disableContentContainer={true}>
     {/* Display the text in the first section*/}
     <section>
-      <div className="container max-height">
-        <img src="/images/background-images/home-header.svg" className="bkg-dot-check desktop"/>
-        <img src="/images/background-images/mobile-home-header.svg" className="bkg-dot-check mobile-one"/>
+      <div className="container">
         <img src="/images/background-images/dots.svg" className="bkg-dots" />
-        <div className="description-cap">
-          Les choses <span className="green-letters">complexes</span> sont finalement <span className="green-letters">simples</span> !
-        </div>
-        <div className="description-small">
-          DÉCOUVREZ NOS SOLUTIONS.
+        <div className="flex-container-col">
+          <div className="home-first-part">
+            <img src="/images/background-images/home-header.svg" className="bkg-dot-check desktop"/>
+            <img src="/images/background-images/mobile-home-header.svg" className="bkg-dot-check mobile-one"/>
+            <div className="justify-center-item text-center full-width">
+                <p className="big-title1 align-text-center">Les choses <span className="green-letters">complexes</span> sont finalement <span className="green-letters">simples</span>!</p>
+                <p className="small-title1 no-margin-padding">DÉCOUVREZ NOS SOLUTIONS.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -70,8 +72,8 @@ const HomepageContainer: React.FC = () => (
             </div>
           </div>
           <div className="flex-container-center">
-            <a href="#" className="common-button-style common-button-font-style margin-right-120" id="#graphs">GRAPHS</a>
-            <a href="#" className="common-button-style common-button-font-style" id="#solvers">SOLVERS</a>
+            <a href="#" className="common-button-style common-button-font-style margin-right-120" id="graphs">GRAPHS</a>
+            <a href="#" className="common-button-style common-button-font-style" id="solvers">SOLVERS</a>
           </div>
         </div>
       </div>
@@ -148,7 +150,7 @@ const HomepageContainer: React.FC = () => (
       </div>
     </section>
 
-    <section className="service-bkg-color">
+    <section id="contact-form">
       <div className="container">
         <div className="flex-container-col">
           <p className="introduce-text">
@@ -169,8 +171,8 @@ const HomepageContainer: React.FC = () => (
           <p className="solution-dec">Profitez d’une période d’essai gratuite !</p>
         </div>
         <div className="flex-container-center button-group">
-            <a href="#" className="common-button-style common-button-font-style margin-right-120" id="#graphs">GRAPHS</a>
-            <a href="#" className="common-button-style common-button-font-style" id="#SOLVERS">SOLVERS</a>
+            <a href="#" className="common-button-style common-button-font-style margin-right-120" id="graphs">GRAPHS</a>
+            <a href="#" className="common-button-style common-button-font-style" id="solvers">SOLVERS</a>
           </div>
       </div>
     </section>

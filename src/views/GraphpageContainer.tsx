@@ -38,7 +38,7 @@ const GraphpageContainer: React.FC = () => (
               <div className="contain-each-part">
                   <img src="/images/addins/graphs/img-1.svg" className="first-img desktop"/>
                   <img src="/images/addins/graphs/mob-img-1.svg" className="first-img mobile"/>
-                  <div className="text-first img-margin-1">
+                  <div className="text-first img-center">
                       <div className="text-box-first">
                         <p className="desc-title no-margin-padding">Révolution</p>
                         <p className="desc-style text-first-margin">Illustrez vos données dans vos présentations, vos rapports et plus généralement dans votre <span className="green-letters">vie professionnelle</span> comme <span className="green-letters">personnelle</span> avec des graphiques spécifiques et détaillés. Ne soyez plus limité par le logiciel mais par <span className="green-letters">vos idées</span>.</p>
@@ -46,7 +46,7 @@ const GraphpageContainer: React.FC = () => (
                   </div>
               </div>
               <div className="contain-each-part">
-                  <div className="text-second img-margin-2">
+                  <div className="text-second img-center">
                       <div className="text-box-first">
                         <p className="desc-title no-margin-padding">Personnalisation</p>
                         <p className="desc-style text-first-margin"><span className="green-letters">Personnalisez</span> vos graphiques à vos souhaits : tracés, textes, axes et légendes mais aussi la possibilité de combiner plusieurs graphiques tout en y insérant des boutons paramétrables.</p>
@@ -58,7 +58,7 @@ const GraphpageContainer: React.FC = () => (
               <div className="contain-each-part">
                   <img src="/images/addins/graphs/img-3.svg" className="first-img desktop"/>
                   <img src="/images/addins/graphs/mob-img-3.svg" className="first-img mobile"/>
-                  <div className="text-first img-margin-3">
+                  <div className="text-first img-center">
                       <div className="text-box-first">
                         <p className="desc-title no-margin-padding">Modernisation</p>
                         <p className="desc-style text-first-margin">Exploitez mieux vos données avec la nouvelle génération QuickCells Graphs. La <span className="green-letters">nouvelle génération</span> propose des graphiques vectoriels, surfaciques, tridimensionnels et bien plus encore.</p>
@@ -66,7 +66,7 @@ const GraphpageContainer: React.FC = () => (
                   </div>
               </div>
               <div className="contain-each-part">
-                  <div className="text-second img-margin-4">
+                  <div className="text-second img-center">
                       <div className="text-box-first">
                         <p className="desc-title no-margin-padding">Information</p>
                         <p className="desc-style text-first-margin">Schématisez vos idées à mesure qu’elles se développent tout en les gardant aussi <span className="green-letters">claires</span> que <span className="green-letters">précises</span>.</p>
