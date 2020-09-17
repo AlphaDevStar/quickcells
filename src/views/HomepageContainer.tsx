@@ -1,9 +1,55 @@
 import React from "react";
 import { NavLayout } from "../components";
+import { Typography, makeStyles, Button, Container } from "@material-ui/core";
+import { useTheme } from "@material-ui/core/styles";
+import clsx from "clsx";
 import '../css/common.css'
 import '../css/home.css'
+const useStyles = makeStyles((theme) => ({
+  commonButtonStyle: {
+    background: '#54C278',
+    borderRadius: '58px',
+    zIndex: 3,
+    textDecoration: 'none',
+    [theme.breakpoints.down(786)]: {
+      fontWeight: 500,
+      fontSize: '15px',
+      lineHeight: '18px',
+    }
+  }, 
+  buttonPadding1: {
+    padding: '20px 60px 20px 60px',
+    [theme.breakpoints.down(786)]: {
+      padding: '10px 60px 10px 60px'
+    }
+  }, 
+  buttonPadding2: {
+    padding: '10px 60px 10px 60px'
+  },
+  commonButtonFontStyle: {
+    color: 'white',
+    fontWeight: 500,
+    fontSize: '25px',
+    lineHeight: '29px',
+    [theme.breakpoints.down(786)]: {
+      fontWeight: 500,
+      fontSize: '15px',
+      lineHeight: '18px',
+    }
+  },
+  marginButton: {
+    marginRight: '120px',
+    [theme.breakpoints.down(786)]: {
+      marginRight: 0,
+      marginBottom: '30px'
+    }
+  }
+}));
 
-const HomepageContainer: React.FC = () => (
+const HomepageContainer: React.FC = () => {
+  const classes = useStyles();
+  const theme = useTheme();
+  return (
   <NavLayout disableContentContainer={true}>
     {/* Display the text in the first section*/}
     <section>
@@ -72,8 +118,8 @@ const HomepageContainer: React.FC = () => (
             </div>
           </div>
           <div className="flex-container-center">
-            <a href="#" className="common-button-style common-button-font-style margin-right-120" id="graphs">GRAPHS</a>
-            <a href="#" className="common-button-style common-button-font-style" id="solvers">SOLVERS</a>
+          <Button className={clsx(classes.commonButtonStyle, classes.buttonPadding1, classes.commonButtonFontStyle, classes.marginButton)} id="graphs">GRAPHS</Button>
+            <Button className={clsx(classes.commonButtonStyle, classes.buttonPadding1, classes.commonButtonFontStyle)} id="solvers">SOLVERS</Button>
           </div>
         </div>
       </div>
@@ -171,13 +217,13 @@ const HomepageContainer: React.FC = () => (
           <p className="solution-dec">Profitez d’une période d’essai gratuite !</p>
         </div>
         <div className="flex-container-center button-group">
-            <a href="#" className="common-button-style common-button-font-style margin-right-120" id="graphs">GRAPHS</a>
-            <a href="#" className="common-button-style common-button-font-style" id="solvers">SOLVERS</a>
+            <Button className={clsx(classes.commonButtonStyle, classes.buttonPadding2, classes.commonButtonFontStyle, classes.marginButton)} id="graphs">GRAPHS</Button>
+            <Button className={clsx(classes.commonButtonStyle, classes.buttonPadding2, classes.commonButtonFontStyle)} id="solvers">SOLVERS</Button>
           </div>
       </div>
     </section>
-  </NavLayout>
-);
+  </NavLayout>);
+};
 
 export {
     HomepageContainer as default,

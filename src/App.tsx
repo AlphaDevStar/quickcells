@@ -6,6 +6,7 @@ import {
   EssayVersion,
   PersonalQuote,
   TarifsPremium,
+  TarifsIntro, 
   PricingTable,
   DummyVIewWithDefaultContainer,
   DummyVIewWithoutDefaultContainer,
@@ -77,9 +78,15 @@ const App: React.FC = () => {
             </DocumentTitle>
           </Route>
           {/* Tarifs Premium */}
-          <Route exact path="/tarifs-Premium">
+          <Route exact path="/tarifs-premium">
             <DocumentTitle title="tarifs premium">
               <TarifsPremium />
+            </DocumentTitle>
+          </Route>
+          {/* Tarifs Intro */}
+          <Route exact path="/tarifs-intro">
+            <DocumentTitle title="tarifs introduction">
+              <TarifsIntro />
             </DocumentTitle>
           </Route>
         </Switch>

@@ -1,9 +1,62 @@
 import React from "react";
 import { NavLayout } from "../components";
+import { Typography, makeStyles, Button, Container } from "@material-ui/core";
+import { useTheme } from "@material-ui/core/styles";
+import clsx from "clsx";
 import '../css/common.css'
 import '../css/graph-solver.css'
 
-const SolverpageContainer : React.FC = () => (
+const useStyles = makeStyles((theme) => ({
+    commonButtonStyle: {
+      background: '#54C278',
+      borderRadius: '58px',
+      zIndex: 3,
+      textDecoration: 'none'
+    }, 
+    buttonEssay: {
+      width: '48%',
+      padding: '1% 0 1% 0',
+      marginBottom: '50px',
+      [theme.breakpoints.down(786)]: {
+        width: '75%',
+        padding: '10px 0 10px 0',
+        marginBottom: 0
+      }
+    }, 
+    buttonTarif: {
+        width: '249px',
+        padding: '20px 0 20px 0'
+    },
+    textCenter: {
+      textAlign: 'center'
+    },
+    buttonPadding2: {
+      padding: '10px 60px 10px 60px'
+    },
+    commonButtonFontStyle: {
+      color: 'white',
+      fontWeight: 500,
+      fontSize: '25px',
+      lineHeight: '29px',
+      [theme.breakpoints.down(786)]: {
+        fontWeight: 500,
+        fontSize: '13px',
+        lineHeight: '15px',
+      }
+    },
+    marginButton: {
+      marginRight: '120px',
+      [theme.breakpoints.down(786)]: {
+        marginRight: 0,
+        marginBottom: '30px'
+      }
+    }
+  }));
+
+const SolverpageContainer : React.FC = () => {
+    const classes = useStyles();
+    const theme = useTheme();
+    return (
   <NavLayout disableContentContainer={true}>
       <section>
           <div className="flex-container-col">
@@ -14,7 +67,7 @@ const SolverpageContainer : React.FC = () => (
                       <p className="small-title not-wrap no-margin-padding">Un graphique vaut mille mots.</p>
                   </div>
               </div>
-              <a href="#" className="general-button-style button-caption essay-button text-center" id="#essayer">Essayer QuickCells Graphs gratuitement.</a>
+              <Button className={clsx(classes.commonButtonStyle, classes.commonButtonFontStyle, classes.buttonEssay)} id="#essayer">Essayer QuickCells Graphs gratuitement.</Button>
           </div>
       </section>
       <section className="graph-bkg">
@@ -79,11 +132,12 @@ const SolverpageContainer : React.FC = () => (
 
           <div className="flex-container-col last-part">
               <p className="desc-title text-center">N’attendez plus pour gagner en productivité.</p>
-              <a className="general-button-style button-caption tarif-button text-center" id="#tarif">Voir les tarifs</a>
+              <Button className={clsx(classes.commonButtonStyle, classes.commonButtonFontStyle, classes.buttonTarif)} id="#tarif">Voir les tarifs</Button>
           </div>
       </section>
   </NavLayout>
 );
+    };
 
 export {
     SolverpageContainer as default,

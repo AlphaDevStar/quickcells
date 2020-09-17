@@ -7,3 +7,4 @@ export * from "./EssayVersion";
 export * from "./PersonalQuote";
 export * from "./TarifsPremium";
 export * from "./PricingTable";
+export * from "./TarifsIntro";
