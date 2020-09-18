@@ -45,3 +45,7 @@ section {
     z-index: 3;
     text-decoration: none;
 }
+
+.entire-page {
+    height: calc(100vh - 80px);
+}

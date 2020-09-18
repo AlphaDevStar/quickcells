@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundRepeat: 'no-repeat'
     }, 
     marginBetweentwoParts: {
-        paddingTop: '10%',
+        paddingTop: '5%',
         [theme.breakpoints.down(786)]: {
             marginTop: '30px',
         }
@@ -147,7 +147,7 @@ const useStyles = makeStyles((theme) => ({
         }
     }, 
     marginButton1: {
-        marginTop: '50px',
+        marginTop: '80px',
         marginBottom: '50px'
     },
     centerButton: {
@@ -159,7 +159,7 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     img3Width: {
-        width: '48%',
+        width: '60%',
         marginTop: '10%',
         [theme.breakpoints.down(786)]: {
             width: '70%',
@@ -355,7 +355,13 @@ const useStyles = makeStyles((theme) => ({
     }, 
     visibleHidden: {
         visibility: 'hidden',
-    }
+    },
+    smallMarginGain: {
+        marginTop: '100px',
+        [theme.breakpoints.down(786)]: {
+            marginTop: '10px',
+        }
+    },
   }));
 
 const TarifsIntro: React.FC = () => {
@@ -383,7 +389,7 @@ const TarifsIntro: React.FC = () => {
                     <img src={process.env.PUBLIC_URL + "/images/tarifs/img2.svg"} className={clsx(classes.img2Width)} />
                 </div>
                 <Button className={clsx(classes.commonButtonStyle, classes.marginButton1, classes.commonButtonFontStyle, classes.commonPaddingButton, classes.centerButton)}>Essayer QuickCells gratuitement.</Button>
-                <div>
+                <div className={classes.smallMarginGain}>
                     <img src={process.env.PUBLIC_URL + "/images/tarifs/img3.svg"} className={clsx(classes.img3Width)} />
                     <img src={process.env.PUBLIC_URL + "/images/tarifs/img4.svg"} className={clsx(classes.img4width)} />
                 </div>

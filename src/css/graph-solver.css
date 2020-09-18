@@ -1,6 +1,7 @@
 .flex-container-col {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-flow: column;
 }
 
@@ -29,14 +30,14 @@
     margin-top: 18px;
 }
 
-.big-title1 {
+.big-title {
     font-size: 50px;
     line-height: 59px;
     color: black;
     width: 70%;
 }
 
-.small-title1 {
+.small-title {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -60,7 +61,7 @@
     background-image: url("/images/addins/graphs/bkg-combine.svg");
     background-repeat: no-repeat;
     background-position: left top;
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 .tete-picture {
@@ -74,6 +75,7 @@
 
 .dynam-text {
     margin-top: 50px;
+    width: 60%;
 }
 
 .desc-title {
@@ -101,11 +103,6 @@
 
 .bundle-part {
     margin-top: 100px;
-}
-
-.tarif-button {
-    width: 249px;
-    padding: 20px 0 20px 0;
 }
 
 .last-part {
@@ -182,6 +179,9 @@
 
 
 @media screen and (max-width: 786px) {
+    .graph-bkg {
+        background-image: url("/images/addins/graphs/bkg-combine-mob.svg");
+    }
 
     .flex-container-row {
         flex-flow: column;
@@ -194,6 +194,7 @@
     .efficar-text {
         width: 30%;
         margin-left: -15%;
+        margin-top: 50px;
     }
 
     .intro-graph {
@@ -201,12 +202,12 @@
         margin-left: 10%;
     }
 
-    .big-title1 {
+    .big-title {
         font-size: 20px;
         line-height: 23px;
     }
 
-    .small-title1 {
+    .small-title {
         font-size: 10px;
         line-height: 12px;
     }

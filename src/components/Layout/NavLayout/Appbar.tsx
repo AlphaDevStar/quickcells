@@ -12,6 +12,7 @@ import { LanguageSwitcher } from "../../common/LanguageSwitcher";
 import clsx from "clsx";
 import { useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
+import { PrepareLogin, AfterLogin } from "../../../views";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
@@ -163,6 +164,22 @@ export const Appbar: React.FC = ({ children }) => {
     },
   ];
 
+  var isLoggedIn = 0;
+
+  const [open, setOpen] = React.useState(false);
+  const [selectedValue, setSelectedValue] = React.useState(1);
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (value: number) => {
+    setOpen(false);
+    setSelectedValue(value);
+  };
+  const handleClose1 = () => {
+    setOpen(false);
+  };
+
   return (
     <React.Fragment>
       <AppBar
@@ -228,7 +245,10 @@ export const Appbar: React.FC = ({ children }) => {
                   "/images/naviguation-icons/account.svg"
                 }
                 alt="Account Icon"
+                onClick={handleClickOpen}
               />
+              {(isLoggedIn === 0) && (<PrepareLogin selectedValue={1} open={open} onClose={handleClose} />) }
+              {(isLoggedIn === 1) && (<AfterLogin open={open} onClose={handleClose1} />)}
             </Grid>
           </Grid>
         </div>

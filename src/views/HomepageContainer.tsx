@@ -52,10 +52,11 @@ const HomepageContainer: React.FC = () => {
   return (
   <NavLayout disableContentContainer={true}>
     {/* Display the text in the first section*/}
+    <div id='home'>
     <section>
       <div className="container">
         <img src="/images/background-images/dots.svg" className="bkg-dots" />
-        <div className="flex-container-col">
+        <div className="flex-container-col entire-page">
           <div className="home-first-part">
             <img src="/images/background-images/home-header.svg" className="bkg-dot-check desktop"/>
             <img src="/images/background-images/mobile-home-header.svg" className="bkg-dot-check mobile-one"/>
@@ -129,7 +130,7 @@ const HomepageContainer: React.FC = () => {
     <section className="service-bkg-color">
       <div className="flex-container-row">
         <div className="common-home-service-style">
-          <img src="/images/naviguation-icons/check.svg" />
+          <img src="/images/naviguation-icons/check.svg" className="static-height"/>
           <div className="common-home-service-caption service-common-margin">100<span className="common-home-service-caption-small-letter">%</span></div>
           <div className="common-home-service-text">
             <div className="common-home-service-sub-caption">D’exactitude</div>
@@ -137,15 +138,15 @@ const HomepageContainer: React.FC = () => {
           </div>
         </div>
         <div className="common-home-service-style">
-          <img src="/images/naviguation-icons/user.svg" />
-          <div className="common-home-service-caption service-common-margin">500</div>
+          <img src="/images/naviguation-icons/user.svg" className="static-height"/>
+          <div className="common-home-service-caption service-common-margin static-height1">500</div>
           <div className="common-home-service-text">
             <div className="common-home-service-sub-caption">Utilisateurs</div>
             <div className="common-home-service-dec">Nous dénombrons déjà plus de 500 utilisateurs satisfaits de nos solutions à travers le monde.</div>
           </div>
         </div>
         <div className="common-home-service-style">
-          <img src="/images/naviguation-icons/calendar.svg" />
+          <img src="/images/naviguation-icons/calendar.svg" className="static-height"/>
           <div className="common-home-service-caption service-common-margin">10<span className="common-home-service-caption-small-letter">h</span></div>
           <div className="common-home-service-text">
             <div className="common-home-service-sub-caption">Economisées</div>
@@ -222,6 +223,7 @@ const HomepageContainer: React.FC = () => {
           </div>
       </div>
     </section>
+    </div>
   </NavLayout>);
 };
 

@@ -60,8 +60,9 @@ const useStyles = makeStyles((theme) => ({
         boxShadow: '7px 7px 17px rgba(84, 194, 120, 0.34)', 
         padding: '16px 0',
         [theme.breakpoints.down(786)]: {
-            padding: '8px 0'
-        }
+            padding: '8px 0',
+            width: '155px !important',
+        }, 
     }, 
     buttonTitleStyle: {
         fontFamily: 'Roboto',
@@ -102,7 +103,7 @@ const EssayVersion: React.FC = () => {
     const theme = useTheme();
     return (
         <NavLayout disableContentContainer={true}>
-            <ContentContainer style={{ maxWidth: "100%" }} className={classes.bkg}>
+            <ContentContainer style={{ maxWidth: "100%", display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}} className={classes.bkg}>
                 <Typography className={classes.caption}>
                     Essayez QuickCells 
                     <Typography className={clsx(classes.caption, classes.greenLetter, classes.leftAlign)}> Gratuitement.</Typography>

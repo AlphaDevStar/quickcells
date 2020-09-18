@@ -4,7 +4,7 @@ import { NavLayout, ContentContainer } from "../components";
 import { useTheme } from "@material-ui/core/styles";
 import clsx from "clsx";
 import { FullscreenExit } from "@material-ui/icons";
-import Select from '@material-ui/core/Select';
+import { Select } from '@material-ui/core';
 import MenuItem from '@material-ui/core/MenuItem';
 
 const useStyles = makeStyles((theme) => ({
@@ -193,9 +193,6 @@ const useStyles = makeStyles((theme) => ({
 
 const PersonalQuote: React.FC = () => {
     const classes = useStyles();
-    const [soci, setSoci] = React.useState('');
-    const [email, setEmail] = React.useState('');
-    const [tel, setTel] = React.useState('');
     const theme = useTheme();
     return (
         <NavLayout disableContentContainer={true}>
@@ -214,10 +211,6 @@ const PersonalQuote: React.FC = () => {
                 <div className={clsx(classes.formSelectBox)}>
                     <Typography className={clsx(classes.formSelectCap)}>Package :</Typography>
                     <Select
-                        inputProps={{
-                            name: 'age',
-                            id: 'filled-age-native-simple'
-                        }} 
                         defaultValue={1}
                         MenuProps={{classes: {
                             paper: classes.dropdownStyle

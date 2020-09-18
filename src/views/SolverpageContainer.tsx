@@ -25,7 +25,11 @@ const useStyles = makeStyles((theme) => ({
     }, 
     buttonTarif: {
         width: '249px',
-        padding: '20px 0 20px 0'
+        padding: '20px 0 20px 0',
+        [theme.breakpoints.down(786)]: {
+          width: '155px',
+          padding: '10px 0 10px 0',
+        }
     },
     textCenter: {
       textAlign: 'center'
@@ -64,7 +68,7 @@ const SolverpageContainer : React.FC = () => {
                   <img src="/images/addins/solvers/first-image.svg" className="intro-graph"/>
                   <div className="justify-center-item text-center">
                       <p className="big-title not-wrap no-margin-padding">QuickCells <span className="green-letters">GRAPHS</span></p>
-                      <p className="small-title not-wrap no-margin-padding">Un graphique vaut mille mots.</p>
+                      <p className="small-title not-wrap no-margin-padding">Cent calculs en un.</p>
                   </div>
               </div>
               <Button className={clsx(classes.commonButtonStyle, classes.commonButtonFontStyle, classes.buttonEssay)} id="#essayer">Essayer QuickCells Graphs gratuitement.</Button>
@@ -72,10 +76,10 @@ const SolverpageContainer : React.FC = () => {
       </section>
       <section className="graph-bkg">
           <div className="flex-container-col">
-              <img src="/images/addins/graphs/tete.svg" className="tete-picture"/>
+              <img src="/images/addins/solvers/intro.svg" className="tete-picture"/>
               <div className="tete-text">
-                  <p className="desc-title no-margin-padding">Plus de 35 graphiques vous sont proposés</p>
-                  <p className="desc-style text-center tete-margin">Tous personnalisables à votre convenance.</p>
+                  <p className="desc-title no-margin-padding">Des tableurs dynamiques et évolutifs</p>
+                  <p className="desc-style text-center tete-margin">Automatisez vos actions et gagnez du temps.</p>
               </div>
           </div>
 

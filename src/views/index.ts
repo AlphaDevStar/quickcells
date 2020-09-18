@@ -10,3 +10,5 @@ export * from "./PricingTable";
 export * from "./TarifsIntro";
 export * from "./DashboardPart";
 export * from "./DashboardAdmin";
+export * from "./PrepareLogin";
+export * from "./AfterLogin";
