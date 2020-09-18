@@ -229,10 +229,55 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'column'
     }
   }));
-
+export interface PriceList {
+    title: string;
+    vis: boolean;
+    price: string;
+    per: string;
+}
 const PricingTable: React.FC = () => {
     const classes = useStyles();
     const theme = useTheme();
+    const PricingTable: React.FC<PriceList> = ({ title, vis, price, per }) => (
+        <div className={clsx(classes.pricingTableContainer)}>
+            <div className={clsx(classes.pricingInnerTable)}>
+                <p className={clsx(classes.pricingCaption)}>Paiement <span className={clsx(classes.greenLetter)}>{title}</span></p>
+                <p className={clsx(classes.pricingStyle, classes.pricingNumStyle)}><span>{price}.</span><span className={clsx(classes.pricingSmallNumStyle)}>95</span>€ <span className={clsx(classes.pricingSmallNumStyle)}>/{per}</span></p>
+                {!vis ? (<p className={clsx(classes.pricingExtraStyle, classes.invisible, classes.smallPriceMargin)}>19.16€ /mois</p>) : (<p className={clsx(classes.pricingExtraStyle, classes.smallPriceMargin)}>19.16€ /mois</p>)}
+                <div className={clsx(classes.selectBoxContainer)}>
+                    <p className={clsx(classes.smallFontStyle, classes.smallFontMargin)}>Nombre de licenses :</p>
+                    <Select
+                        inputProps={{
+                            name: 'num',
+                            id: 'filled-num-native-simple'
+                        }} 
+                        MenuProps={{classes: {
+                            paper: classes.dropdownStyle
+                        }}} 
+                        className={clsx(classes.selectFormStyle, classes.selectFontStyle, classes.selectBoxPadding)}
+                        defaultValue={1}
+                        IconComponent={()=>(<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5703 16.2712L17.9884 8.85314C18.3848 8.45668 19.0276 8.45669 19.4241 8.85314C19.8205 9.2496 19.8205 9.89238 19.4241 10.2888L11.2885 18.4244C11.2873 18.4256 11.2861 18.4268 11.2849 18.428C10.8882 18.8212 10.2478 18.8201 9.85246 18.4247L1.71687 10.2891C1.32041 9.89268 1.32041 9.2499 1.71687 8.85344C2.11332 8.45699 2.75611 8.45699 3.15256 8.85344L10.5703 16.2712Z" fill="#54C278"/>
+                        </svg>
+                        )}
+                        disableUnderline={true} 
+                        >
+                            <MenuItem value={1} className={clsx(classes.selectOptionText)}>1</MenuItem>
+                            <MenuItem value={2} className={clsx(classes.selectOptionText)}>2</MenuItem>
+                            <MenuItem value={3} className={clsx(classes.selectOptionText)}>3</MenuItem>
+                            <MenuItem value={4} className={clsx(classes.selectOptionText)}>4</MenuItem>
+                            <MenuItem value={5} className={clsx(classes.selectOptionText)}>5</MenuItem>
+                            <MenuItem value={6} className={clsx(classes.selectOptionText)}>6</MenuItem>
+                            <MenuItem value={7} className={clsx(classes.selectOptionText)}>7</MenuItem>
+                            <MenuItem value={8} className={clsx(classes.selectOptionText)}>8</MenuItem>
+                            <MenuItem value={9} className={clsx(classes.selectOptionText)}>9</MenuItem>
+                            <MenuItem value={10} className={clsx(classes.selectOptionText)}>10</MenuItem>
+                    </Select>
+                </div>
+            </div>
+            <Button className={clsx(classes.bottomCenterButton, classes.smallFontStyle, classes.buttonTitleStyle, classes.buttonPersonPadding)}>Payement {title}</Button>
+        </div>
+      );
     return (
         <NavLayout disableContentContainer={true}>
             <div className={classes.containerFirstPart}>
@@ -245,7 +290,9 @@ const PricingTable: React.FC = () => {
             </div>
             <div className={clsx(classes.flexContainerCol)}>
                 <div className={clsx(classes.flexContainerRow, classes.pricingTableWidth)}>
-                    <div className={clsx(classes.pricingTableContainer)}>
+                    <PricingTable title={'Mensuel'} vis={false} price={'22'} per={'mois'} />
+                    <PricingTable title={'asdf'} vis={true} price={'229'} per={'an'} />
+                    {/*<div className={clsx(classes.pricingTableContainer)}>
                         <div className={clsx(classes.pricingInnerTable)}>
                             <p className={clsx(classes.pricingCaption)}>Paiement <span className={clsx(classes.greenLetter)}>Mensuel</span></p>
                             <p className={clsx(classes.pricingStyle, classes.pricingNumStyle)}><span>22.</span><span className={clsx(classes.pricingSmallNumStyle)}>95</span>€ <span className={clsx(classes.pricingSmallNumStyle)}>/mois</span></p>
@@ -322,7 +369,7 @@ const PricingTable: React.FC = () => {
                         </div>
                         <Button className={clsx(classes.bottomCenterButton, classes.smallFontStyle, classes.buttonTitleStyle, classes.buttonPersonPadding)}>Payement Annuel</Button>
                     </div>
-                    
+                     */}
                 </div>
                 <div className={clsx(classes.descriptionBox)}>
                     <p className={clsx(classes.inboxText)}>Pour les professionnels souhaitant acheter plus de n licenses, nous vous invitons à remplire une demande de devis personnalisé.</p>

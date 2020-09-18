@@ -8,3 +8,4 @@ export * from "./PersonalQuote";
 export * from "./TarifsPremium";
 export * from "./PricingTable";
 export * from "./TarifsIntro";
+export * from "./DashboardPart";

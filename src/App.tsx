@@ -6,6 +6,7 @@ import {
   EssayVersion,
   PersonalQuote,
   TarifsPremium,
+  DashboardPart,
   TarifsIntro, 
   PricingTable,
   DummyVIewWithDefaultContainer,
@@ -87,6 +88,12 @@ const App: React.FC = () => {
           <Route exact path="/tarifs-intro">
             <DocumentTitle title="tarifs introduction">
               <TarifsIntro />
+            </DocumentTitle>
+          </Route>
+          {/* Dashboard Particuliers */}
+          <Route exact path="/dash-part">
+            <DocumentTitle title="dashboard particuliers">
+              <DashboardPart />
             </DocumentTitle>
           </Route>
         </Switch>
