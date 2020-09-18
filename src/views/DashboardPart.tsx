@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, makeStyles, Button, Container } from "@material-ui/core";
+import { Typography, makeStyles, Button} from "@material-ui/core";
 import { NavLayout, ContentContainer } from "../components";
 import { useTheme } from "@material-ui/core/styles";
 import clsx from "clsx";
@@ -171,6 +171,7 @@ const useStyles = makeStyles((theme) => ({
         width: '100%',
     },
     tr1Width: {
+        wordBreak: 'break-word',
         width: '18%',
         textAlign: 'center',
         borderRight: '1px solid #54C278',
@@ -185,6 +186,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     tr2Width: {
+        wordBreak: 'break-word',
         width: '20%',
         textAlign: 'center',
         borderRight: '1px solid #54C278',
@@ -196,6 +198,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     tr3Width: {
+        wordBreak: 'break-word',
         width: '14%',
         textAlign: 'center',
         borderRight: '1px solid #54C278',
@@ -207,6 +210,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     tr4Width: {
+        wordBreak: 'break-word',
         width: '28%',
         textAlign: 'center',
         borderRight: '1px solid #54C278',
@@ -218,6 +222,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     tr5Width: {
+        wordBreak: 'break-word',
         width: '20%',
         textAlign: 'center',
         alignSelf: 'stretch',
@@ -271,7 +276,7 @@ const useStyles = makeStyles((theme) => ({
         },
     }
   }));
-export interface ItableList {
+interface ItableList {
     title: string;
 }
 const DashboardPart: React.FC = () => {
@@ -320,6 +325,7 @@ const DashboardPart: React.FC = () => {
                 </div>
                 <div className={clsx(classes.mainPart, classes.flexMain)}>
                     <p className={clsx(classes.helloStyle)}>Bonjour John Stone !</p>
+                    
                     <CustomTable title={'Graphs - Abonnement mensuel'} />
                     <CustomTable title={'Solvers - Abonnement mensuel'} />
                     <CustomTable title={'Premium - Abonnement mensuel'} />
