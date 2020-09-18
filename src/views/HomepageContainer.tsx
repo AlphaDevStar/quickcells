@@ -204,8 +204,14 @@ const HomepageContainer: React.FC = () => {
             <span className="green-letters">QuickCells</span> est dès à présent disponible et compatible avec les solutions Google Sheets et Microsoft Excel.
           </p>
           <div className="flex-container-row">
-            <img src="/images/homepage-extra-image-data/google.svg" className="google-picture-style"/>
-            <img src="/images/homepage-extra-image-data/microsoft.svg" className="microsoft-picture-style"/>
+            <div className="position-rel">
+              <img src="/images/homepage-extra-image-data/dot.svg" className="google-picture-style" />
+              <img src="/images/homepage-extra-image-data/google.svg" className="google-picture-style position-abs" />
+            </div>
+            <div className="position-rel">
+              <img src="/images/homepage-extra-image-data/dot.svg" className="google-picture-style" />
+              <img src="/images/homepage-extra-image-data/microsoft.svg" className="google-picture-style position-abs" />
+            </div>
           </div>
         </div>
       </div>

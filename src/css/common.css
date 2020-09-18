@@ -49,3 +49,10 @@ section {
 .entire-page {
     height: calc(100vh - 80px);
 }
+
+
+@media screen and (max-width: 786px) {
+    .entire-page {
+        height: auto;
+    }
+}

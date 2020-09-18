@@ -227,7 +227,10 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'flex-start',
         flexDirection: 'column'
-    }
+    }, 
+    noWrap: {
+        whiteSpace: 'nowrap',
+    },
   }));
 export interface PriceList {
     title: string;
@@ -253,7 +256,9 @@ const PricingTable: React.FC = () => {
                         }} 
                         MenuProps={{classes: {
                             paper: classes.dropdownStyle
-                        }}} 
+                        },
+                        disableScrollLock: true,
+                    }} 
                         className={clsx(classes.selectFormStyle, classes.selectFontStyle, classes.selectBoxPadding)}
                         defaultValue={1}
                         IconComponent={()=>(<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -283,8 +288,7 @@ const PricingTable: React.FC = () => {
             <div className={classes.containerFirstPart}>
                 <img src={process.env.PUBLIC_URL + "/images/cells/grey-white-background.jpg"} className={classes.bkg} alt="QuickCells logo" />
                 <div className={classes.centerCaption}>
-                    <span className={classes.caption}>QuickCells</span>
-                    <span className={clsx(classes.caption, classes.greenLetter)}> PREMIUM</span>
+                    <p className={clsx(classes.caption, classes.noWrap)}>QuickCells <span className={clsx(classes.greenLetter)}>PREMIUM</span></p>                    
                     <p className={clsx(classes.subCaption)}>Pour Professionnels</p>
                 </div>
             </div>

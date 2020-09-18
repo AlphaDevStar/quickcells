@@ -133,6 +133,9 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '12px',
         lineHeight: '14px',
         marginBottom: '40px',
+        [theme.breakpoints.down(786)]: {
+            marginBottom: '100px',
+        },
     },
     commonTableStyle: {
         background: 'white',
@@ -261,7 +264,11 @@ const useStyles = makeStyles((theme) => ({
         top: '-5%',
         width: '100%',
         opacity: 0.09,
-        zIndex: 1
+        zIndex: 1,
+        [theme.breakpoints.down(786)]: {
+            top: '10%',
+            height: '250px',
+        },
     },
     responsMob: {
         display: 'none',
