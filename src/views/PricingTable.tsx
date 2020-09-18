@@ -254,11 +254,21 @@ const PricingTable: React.FC = () => {
                             name: 'num',
                             id: 'filled-num-native-simple'
                         }} 
-                        MenuProps={{classes: {
-                            paper: classes.dropdownStyle
-                        },
-                        disableScrollLock: true,
-                    }} 
+                        MenuProps={{
+                            classes: {
+                                paper: classes.dropdownStyle
+                            },
+                            disableScrollLock: true,
+                            anchorOrigin: {
+                                vertical: "bottom",
+                                horizontal: "left"
+                            },
+                            transformOrigin: {
+                                vertical: "top",
+                                horizontal: "left"
+                            },
+                            getContentAnchorEl: null
+                        }} 
                         className={clsx(classes.selectFormStyle, classes.selectFontStyle, classes.selectBoxPadding)}
                         defaultValue={1}
                         IconComponent={()=>(<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">

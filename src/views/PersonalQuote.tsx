@@ -217,6 +217,15 @@ const PersonalQuote: React.FC = () => {
                             paper: classes.dropdownStyle,
                         },
                         disableScrollLock: true,
+                        anchorOrigin: {
+                            vertical: "bottom",
+                            horizontal: "left"
+                        },
+                        transformOrigin: {
+                            vertical: "top",
+                            horizontal: "left"
+                        },
+                        getContentAnchorEl: null
                         }} 
                         IconComponent={()=>(<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5703 16.2712L17.9884 8.85314C18.3848 8.45668 19.0276 8.45669 19.4241 8.85314C19.8205 9.2496 19.8205 9.89238 19.4241 10.2888L11.2885 18.4244C11.2873 18.4256 11.2861 18.4268 11.2849 18.428C10.8882 18.8212 10.2478 18.8201 9.85246 18.4247L1.71687 10.2891C1.32041 9.89268 1.32041 9.2499 1.71687 8.85344C2.11332 8.45699 2.75611 8.45699 3.15256 8.85344L10.5703 16.2712Z" fill="#54C278"/>
